@@ -10,7 +10,10 @@ def square(x):
 
  
  """
- return x*x
+ if x<=0:
+   return "This function only accepts x >=0. Please change x"
+  else :
+   return x*x
  
 def cube(x):
  
