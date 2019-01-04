@@ -3,6 +3,12 @@ def square(x):
  """
  This function creates the square of given
  integer
+
+ 
+ :param x: 
+ :return: cube of a number
+
+ 
  """
  return x*x
  
