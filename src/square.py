@@ -6,7 +6,7 @@ def square(x):
 
  
  :param x: 
- :return: cube of a number
+ :return: square of a number
 
  
  """
@@ -20,3 +20,5 @@ def cube(x):
  :return: cube of a number
  """
  return x*x*x
+
+print(square(43))
