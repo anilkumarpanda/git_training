@@ -11,18 +11,17 @@ def square(x):
  
  """
  if x<=0:
-   return "This function only accepts x >=0. Please change x"
-  else :
-   return x*x
+  return "This function only accepts x >=0. Please change x"
+ else :
+  return x*x
  
 def cube(x):
+  """
  
- """
- 
- :param x: 
- :return: cube of a number
- """
- return x*x*x
+  :param x:
+  :return: cube of a number
+  """
+  return x*x*x
 
 
 print(square(3))
